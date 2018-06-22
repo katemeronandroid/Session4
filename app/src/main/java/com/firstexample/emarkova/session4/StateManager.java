@@ -5,7 +5,7 @@ public class StateManager {
     public static enum State {
         READY, STEADY, GO;
     }
-
+    //методы
     public static State getState() {
         return currentState;
     }
